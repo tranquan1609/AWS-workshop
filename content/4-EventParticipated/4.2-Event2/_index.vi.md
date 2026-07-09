@@ -1,4 +1,4 @@
----
+﻿---
 title: "Event 2"
 date: 2026-05-30
 weight: 2
@@ -119,7 +119,7 @@ Buổi chia sẻ giúp mình nhận ra rằng để đáp ứng nhu cầu của 
 
 #### Hình ảnh minh chứng tham gia sự kiện
 
-![Lịch sử chấm công First Cloud AI Journey 30-05-2026](/images/4-EventParticipated/4.2-Event2/first-cloud-ai-journey-attendance.png)
+![Lịch sử chấm công First Cloud AI Journey 30-05-2026](/AWS-workshop/images/4-EventParticipated/4.2-Event2/first-cloud-ai-journey-attendance.png)
 
 ### Tổng kết
 

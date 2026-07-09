@@ -1,4 +1,4 @@
----
+﻿---
 title: "VPC & Networking"
 date: 2026-07-01
 weight: 3
@@ -23,7 +23,7 @@ Create VPC **`dacswebsk-vpc`** with the following settings:
 
 Once complete, the VPC acts as the private network that hosts all resources deployed in this workshop.
 
-![VPC resource map](/images/5-Workshop/5.3-VPC-Networking/03-vpc-dacswebsk-resource-map.png)
+![VPC resource map](/AWS-workshop/images/5-Workshop/5.3-VPC-Networking/03-vpc-dacswebsk-resource-map.png)
 
 #### Subnets
 
@@ -37,7 +37,7 @@ Create the subnets listed below:
 
 The two Public Subnets span two Availability Zones to support fault tolerance for the **Application Load Balancer (ALB)**. Public Subnets use route table **`dacswebsk-rtb-public`**, with the default route (`0.0.0.0/0`) pointing to the **Internet Gateway** for Internet access.
 
-![Subnets](/images/5-Workshop/5.3-VPC-Networking/04-vpc-subnets-public-private.png)
+![Subnets](/AWS-workshop/images/5-Workshop/5.3-VPC-Networking/04-vpc-subnets-public-private.png)
 
 #### Security Groups
 
@@ -52,7 +52,7 @@ After the network is in place, create Security Groups to control traffic between
 
 Separating Security Groups by component makes network traffic easier to control and limits unnecessary access between services.
 
-![Security groups](/images/5-Workshop/5.3-VPC-Networking/05-vpc-security-groups.png)
+![Security groups](/AWS-workshop/images/5-Workshop/5.3-VPC-Networking/05-vpc-security-groups.png)
 
 #### Section summary
 

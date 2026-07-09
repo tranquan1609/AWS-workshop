@@ -1,4 +1,4 @@
----
+﻿---
 title: "Lambda, EventBridge & Chatbot"
 date: 2026-07-01
 weight: 7
@@ -23,7 +23,7 @@ In the local deployment, the application uses three **.NET hosted services** to 
 
 After deployment, review the Lambda function list to confirm all functions were created successfully.
 
-![Lambda functions list](/images/5-Workshop/5.7-Lambda-EventBridge/17-lambda-functions-list.png)
+![Lambda functions list](/AWS-workshop/images/5-Workshop/5.7-Lambda-EventBridge/17-lambda-functions-list.png)
 
 #### Configure Amazon EventBridge
 
@@ -37,7 +37,7 @@ Create **EventBridge rules** to trigger the Lambda functions on a schedule.
 
 Once configured, Lambda functions run on schedule without needing to stay active on the EC2 server.
 
-![EventBridge rules](/images/5-Workshop/5.7-Lambda-EventBridge/19-eventbridge-scheduled-rules.png)
+![EventBridge rules](/AWS-workshop/images/5-Workshop/5.7-Lambda-EventBridge/19-eventbridge-scheduled-rules.png)
 
 #### Deploy the chatbot with API Gateway
 
@@ -62,7 +62,7 @@ When a user sends a question from the web UI, the request goes to Amazon API Gat
 
 Test the Lambda function in the **AWS Lambda console**. If the response is **HTTP 200** with appropriate CORS headers, API Gateway, Lambda, and the web UI are integrated correctly.
 
-![Lambda chatbot test success](/images/5-Workshop/5.7-Lambda-EventBridge/18-lambda-chatbot-test-success.png)
+![Lambda chatbot test success](/AWS-workshop/images/5-Workshop/5.7-Lambda-EventBridge/18-lambda-chatbot-test-success.png)
 
 Example Chat API endpoint:
 

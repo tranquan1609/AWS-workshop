@@ -1,4 +1,4 @@
----
+﻿---
 title: "Monitoring, Security & Operations"
 date: 2026-07-01
 weight: 8
@@ -18,7 +18,7 @@ In this workshop, production configuration is stored in the secret **`dacswebskp
 
 **AWS Secrets Manager** improves security, simplifies credential management, and reduces the risk of leaks when sharing or maintaining source code.
 
-![AWS Secrets Manager](/images/5-Workshop/5.8-Monitoring-Security/20-secrets-manager.png)
+![AWS Secrets Manager](/AWS-workshop/images/5-Workshop/5.8-Monitoring-Security/20-secrets-manager.png)
 
 #### AWS Backup
 
@@ -26,7 +26,7 @@ To protect system data, create a **backup plan** named **`dacswebsk-backup-plan`
 
 Associate the plan with resource **`dacswebsk-rds`** so data can be restored after incidents or accidental loss.
 
-![AWS Backup Plan](/images/5-Workshop/5.8-Monitoring-Security/21-backup-plan.png)
+![AWS Backup Plan](/AWS-workshop/images/5-Workshop/5.8-Monitoring-Security/21-backup-plan.png)
 
 #### AWS CloudTrail
 
@@ -41,7 +41,7 @@ Configure the trail with these settings:
 
 CloudTrail provides an audit trail for your AWS account, supporting investigation, analysis, and traceability when incidents or unexpected changes occur.
 
-![CloudTrail logging](/images/5-Workshop/5.8-Monitoring-Security/22-cloudtrail-logging.png)
+![CloudTrail logging](/AWS-workshop/images/5-Workshop/5.8-Monitoring-Security/22-cloudtrail-logging.png)
 
 #### Amazon CloudWatch
 
@@ -55,7 +55,7 @@ The workshop uses alarms for:
 
 When the system is healthy, alarms show **OK**, making it easy for administrators to monitor AWS resource status.
 
-![CloudWatch alarms OK](/images/5-Workshop/5.8-Monitoring-Security/23-cloudwatch-alarms-ok.png)
+![CloudWatch alarms OK](/AWS-workshop/images/5-Workshop/5.8-Monitoring-Security/23-cloudwatch-alarms-ok.png)
 
 #### Notes
 

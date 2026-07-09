@@ -1,4 +1,4 @@
----
+﻿---
 title: "Event 1"
 date: 2026-05-09
 weight: 1
@@ -124,7 +124,7 @@ Buổi chia sẻ cũng giúp em hiểu rõ hơn những kỹ năng mà doanh ngh
 
 #### Hình ảnh minh chứng tham gia sự kiện
 
-![Lịch sử chấm công FCAJ Community Day 09-05-2026](/images/4-EventParticipated/4.1-Event1/fcaj-community-day-attendance.png)
+![Lịch sử chấm công FCAJ Community Day 09-05-2026](/AWS-workshop/images/4-EventParticipated/4.1-Event1/fcaj-community-day-attendance.png)
 
 ### Tổng kết
 

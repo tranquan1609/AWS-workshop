@@ -1,4 +1,4 @@
----
+﻿---
 title: "Amazon S3 & SES"
 date: 2026-07-01
 weight: 5
@@ -23,13 +23,13 @@ Create separate S3 buckets for each data type. All buckets are configured as **P
 
 After creating the buckets, review the list to confirm they were provisioned successfully.
 
-![S3 buckets list](/images/5-Workshop/5.5-S3-SES/09-s3-buckets-list.png)
+![S3 buckets list](/AWS-workshop/images/5-Workshop/5.5-S3-SES/09-s3-buckets-list.png)
 
 #### Verify file upload
 
 After S3 is configured, create a new event in the admin UI and upload a cover image. If configuration is correct, the file is stored in the corresponding bucket under the `events/` prefix.
 
-![Event objects on S3](/images/5-Workshop/5.5-S3-SES/10-s3-events-objects-uploaded.png)
+![Event objects on S3](/AWS-workshop/images/5-Workshop/5.5-S3-SES/10-s3-events-objects-uploaded.png)
 
 The ASP.NET Core application uses **`IFileStorageService`** with an **S3 provider** to manage uploads and storage. Files are no longer saved on the EC2 disk; they are stored as objects in Amazon S3, improving durability, scalability, and reducing data loss risk when replacing or rebuilding the server.
 
@@ -44,7 +44,7 @@ Follow these steps:
 3. Confirm the email identity status is **Verified**.
 4. Send a test email from the AWS Management Console or trigger email from the application.
 
-![SES identity Verified](/images/5-Workshop/5.5-S3-SES/11-ses-identity-verified.png)
+![SES identity Verified](/AWS-workshop/images/5-Workshop/5.5-S3-SES/11-ses-identity-verified.png)
 
 > **Note:** New AWS accounts typically start with Amazon SES in **Sandbox** mode. In this mode, email can only be sent to verified addresses. For production, request **Production Access** to remove this limitation.
 

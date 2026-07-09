@@ -1,4 +1,4 @@
----
+﻿---
 title: "Internship Report"
 date: 2026-04-20
 weight: 1
@@ -28,7 +28,7 @@ chapter: false
 
 &emsp; **Internship Duration:** From 20 April 2026 to 12 July 2026
 
-<img src="/images/Avata.jpg" alt="Profile photo" width="594" style="max-width: 100%; height: auto;">
+<img src="/AWS-workshop/images/Avata.jpg" alt="Profile photo" width="594" style="max-width: 100%; height: auto;">
 
 ### Report Content
 

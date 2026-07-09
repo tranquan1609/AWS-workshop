@@ -1,4 +1,4 @@
----
+﻿---
 title: "Event 1"
 date: 2026-05-09
 weight: 1
@@ -119,7 +119,7 @@ The session clarified skills employers expect today: beyond technical knowledge,
 
 #### Event attendance proof
 
-![FCAJ Community Day attendance record 09-05-2026](/images/4-EventParticipated/4.1-Event1/fcaj-community-day-attendance.png)
+![FCAJ Community Day attendance record 09-05-2026](/AWS-workshop/images/4-EventParticipated/4.1-Event1/fcaj-community-day-attendance.png)
 
 ### Summary
 

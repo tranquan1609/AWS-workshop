@@ -1,4 +1,4 @@
----
+﻿---
 title: "EC2, ALB & WAF"
 date: 2026-07-01
 weight: 6
@@ -28,9 +28,9 @@ sudo nohup dotnet DACSWEBSK.dll --urls http://0.0.0.0:80 > app.log 2>&1 &
 
 If startup succeeds, the EC2 instance status is **Running** and the application is reachable directly via the Elastic IP.
 
-![EC2 Running](/images/5-Workshop/5.6-EC2-ALB-WAF/12-ec2-instance-running.png)
+![EC2 Running](/AWS-workshop/images/5-Workshop/5.6-EC2-ALB-WAF/12-ec2-instance-running.png)
 
-![EC2 instance summary](/images/5-Workshop/5.6-EC2-ALB-WAF/13-ec2-instance-summary-eip.png)
+![EC2 instance summary](/AWS-workshop/images/5-Workshop/5.6-EC2-ALB-WAF/13-ec2-instance-summary-eip.png)
 
 Verify the application by visiting:
 
@@ -54,9 +54,9 @@ Configure the ALB as follows:
 
 After configuration, check the load balancer and target group status to confirm the EC2 instance passes health checks.
 
-![ALB Active](/images/5-Workshop/5.6-EC2-ALB-WAF/14-alb-active-listener.png)
+![ALB Active](/AWS-workshop/images/5-Workshop/5.6-EC2-ALB-WAF/14-alb-active-listener.png)
 
-![Target Group Healthy](/images/5-Workshop/5.6-EC2-ALB-WAF/15-target-group-healthy.png)
+![Target Group Healthy](/AWS-workshop/images/5-Workshop/5.6-EC2-ALB-WAF/15-target-group-healthy.png)
 
 Example ALB DNS name:
 
@@ -72,7 +72,7 @@ To strengthen application protection, create an **AWS WAF Web ACL** named **`dac
 
 The workshop uses **AWS managed rule groups** with **18 rules** to detect and block common attacks such as SQL injection, cross-site scripting (XSS), and abnormal traffic patterns.
 
-![WAF protection pack](/images/5-Workshop/5.6-EC2-ALB-WAF/16-waf-protection-pack.png)
+![WAF protection pack](/AWS-workshop/images/5-Workshop/5.6-EC2-ALB-WAF/16-waf-protection-pack.png)
 
 > **Note:** During the lab, the **AWS managed common rule set** may block POST requests with file uploads (for example, creating an event with an image in the admin UI). For easier testing, you can:
 >

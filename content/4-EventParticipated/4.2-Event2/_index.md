@@ -1,4 +1,4 @@
----
+﻿---
 title: "Event 2"
 date: 2026-05-30
 weight: 2
@@ -113,7 +113,7 @@ The session showed that employers expect not only strong technical knowledge but
 
 #### Event attendance proof
 
-![First Cloud AI Journey attendance record 30-05-2026](/images/4-EventParticipated/4.2-Event2/first-cloud-ai-journey-attendance.png)
+![First Cloud AI Journey attendance record 30-05-2026](/AWS-workshop/images/4-EventParticipated/4.2-Event2/first-cloud-ai-journey-attendance.png)
 
 ### Summary
 

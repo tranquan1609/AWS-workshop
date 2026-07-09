@@ -1,4 +1,4 @@
----
+﻿---
 title: "Proposal"
 date: 2026-06-22
 weight: 2
@@ -52,7 +52,7 @@ Deploy DACSWEBSK on AWS using a **multi-tier** model:
 
 The deployed system is organized around these main flows:
 
-![DACSWEBSK architecture on AWS](/images/2-Proposal/dacswebsk-architecture-diagram.png)
+![DACSWEBSK architecture on AWS](/AWS-workshop/images/2-Proposal/dacswebsk-architecture-diagram.png)
 
 *AWS services used*
 

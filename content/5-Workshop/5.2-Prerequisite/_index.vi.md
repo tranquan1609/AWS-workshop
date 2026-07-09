@@ -1,4 +1,4 @@
----
+﻿---
 title: "Chuẩn bị — IAM & CLI"
 date: 2026-07-01
 weight: 2
@@ -34,9 +34,9 @@ CloudWatchFullAccessV2
 SecretsManagerReadWrite
 ```
 
-![Danh sách IAM users](/images/5-Workshop/5.2-Prerequisite/01-iam-users-list.png)
+![Danh sách IAM users](/AWS-workshop/images/5-Workshop/5.2-Prerequisite/01-iam-users-list.png)
 
-![Quyền của dacswebsk-dev](/images/5-Workshop/5.2-Prerequisite/02-iam-user-permissions-dacswebsk-dev.png)
+![Quyền của dacswebsk-dev](/AWS-workshop/images/5-Workshop/5.2-Prerequisite/02-iam-user-permissions-dacswebsk-dev.png)
 
 #### Cấu hình AWS CLI
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: "EC2, ALB & WAF"
 date: 2026-07-01
 weight: 6
@@ -28,9 +28,9 @@ sudo nohup dotnet DACSWEBSK.dll --urls http://0.0.0.0:80 > app.log 2>&1 &
 
 Nếu ứng dụng khởi động thành công, trạng thái của EC2 sẽ là **Running** và có thể truy cập trực tiếp thông qua Elastic IP.
 
-![EC2 Running](/images/5-Workshop/5.6-EC2-ALB-WAF/12-ec2-instance-running.png)
+![EC2 Running](/AWS-workshop/images/5-Workshop/5.6-EC2-ALB-WAF/12-ec2-instance-running.png)
 
-![EC2 instance summary](/images/5-Workshop/5.6-EC2-ALB-WAF/13-ec2-instance-summary-eip.png)
+![EC2 instance summary](/AWS-workshop/images/5-Workshop/5.6-EC2-ALB-WAF/13-ec2-instance-summary-eip.png)
 
 Kiểm tra ứng dụng bằng cách truy cập:
 
@@ -54,9 +54,9 @@ Cấu hình ALB như sau:
 
 Sau khi cấu hình hoàn tất, kiểm tra trạng thái của Load Balancer và Target Group để đảm bảo EC2 đã vượt qua Health Check.
 
-![ALB Active](/images/5-Workshop/5.6-EC2-ALB-WAF/14-alb-active-listener.png)
+![ALB Active](/AWS-workshop/images/5-Workshop/5.6-EC2-ALB-WAF/14-alb-active-listener.png)
 
-![Target Group Healthy](/images/5-Workshop/5.6-EC2-ALB-WAF/15-target-group-healthy.png)
+![Target Group Healthy](/AWS-workshop/images/5-Workshop/5.6-EC2-ALB-WAF/15-target-group-healthy.png)
 
 Ví dụ địa chỉ DNS do ALB cung cấp:
 
@@ -72,7 +72,7 @@ Từ thời điểm này, người dùng nên truy cập ứng dụng thông qua
 
 Workshop sử dụng các **AWS Managed Rule Groups** với tổng cộng **18 luật** nhằm phát hiện và ngăn chặn các cuộc tấn công phổ biến như SQL Injection, Cross-Site Scripting (XSS) và các mẫu lưu lượng truy cập bất thường.
 
-![WAF protection pack](/images/5-Workshop/5.6-EC2-ALB-WAF/16-waf-protection-pack.png)
+![WAF protection pack](/AWS-workshop/images/5-Workshop/5.6-EC2-ALB-WAF/16-waf-protection-pack.png)
 
 > **Lưu ý:** Trong quá trình thực hành, **AWS Managed Common Rule Set** có thể chặn các yêu cầu POST chứa tệp tải lên (ví dụ: tạo sự kiện kèm hình ảnh trong giao diện quản trị). Để thuận tiện cho việc kiểm thử, bạn có thể:
 >

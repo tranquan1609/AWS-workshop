@@ -1,4 +1,4 @@
----
+﻿---
 title: "Amazon RDS (SQL Server)"
 date: 2026-07-01
 weight: 4
@@ -27,7 +27,7 @@ Create an RDS instance with the following settings:
 
 When provisioning completes, the database status changes to **Available**, indicating RDS is ready to accept connections from the application.
 
-![RDS Available](/images/5-Workshop/5.4-RDS/06-rds-databases-available.png)
+![RDS Available](/AWS-workshop/images/5-Workshop/5.4-RDS/06-rds-databases-available.png)
 
 #### Connectivity
 
@@ -39,7 +39,7 @@ After the database is created, note the connection details for use in the applic
 
 These values are used when configuring the connection string for the ASP.NET Core application.
 
-![RDS connectivity / endpoint](/images/5-Workshop/5.4-RDS/07-rds-connectivity-endpoint.png)
+![RDS connectivity / endpoint](/AWS-workshop/images/5-Workshop/5.4-RDS/07-rds-connectivity-endpoint.png)
 
 #### Configure Security Group
 
@@ -50,7 +50,7 @@ To allow the application to reach the database, configure the RDS Security Group
 - Administrator IP address (temporary use during migration or testing only)
 - Rule for the Lambda chatbot demo environment *(restrict or remove in production)*
 
-![RDS SG inbound](/images/5-Workshop/5.4-RDS/08-rds-security-group-inbound-1433.png)
+![RDS SG inbound](/AWS-workshop/images/5-Workshop/5.4-RDS/08-rds-security-group-inbound-1433.png)
 
 #### Integrate with the application
 

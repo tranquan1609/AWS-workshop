@@ -1,4 +1,4 @@
----
+﻿---
 title: "Amazon S3 & SES"
 date: 2026-07-01
 weight: 5
@@ -23,13 +23,13 @@ Tạo các S3 Bucket riêng cho từng loại dữ liệu. Tất cả các Bucke
 
 Sau khi tạo xong các Bucket, kiểm tra lại danh sách để đảm bảo tất cả đã được khởi tạo thành công.
 
-![Danh sách S3 buckets](/images/5-Workshop/5.5-S3-SES/09-s3-buckets-list.png)
+![Danh sách S3 buckets](/AWS-workshop/images/5-Workshop/5.5-S3-SES/09-s3-buckets-list.png)
 
 #### Kiểm tra chức năng tải tệp
 
 Sau khi hoàn tất cấu hình Amazon S3, tạo một sự kiện mới trên giao diện quản trị và tải lên hình ảnh minh họa. Nếu quá trình cấu hình chính xác, tệp sẽ được lưu trong Bucket tương ứng dưới thư mục (prefix) `events/`.
 
-![Object sự kiện trên S3](/images/5-Workshop/5.5-S3-SES/10-s3-events-objects-uploaded.png)
+![Object sự kiện trên S3](/AWS-workshop/images/5-Workshop/5.5-S3-SES/10-s3-events-objects-uploaded.png)
 
 Ứng dụng ASP.NET Core sử dụng **`IFileStorageService`** với **S3 Provider** để quản lý việc tải lên và lưu trữ tệp. Nhờ đó, dữ liệu không còn được lưu trên ổ đĩa của EC2 mà được lưu trữ dưới dạng object trên Amazon S3, giúp tăng tính bền vững, khả năng mở rộng và giảm rủi ro mất dữ liệu khi thay thế hoặc khởi tạo lại máy chủ.
 
@@ -44,7 +44,7 @@ Thực hiện các bước sau:
 3. Đảm bảo trạng thái của địa chỉ email là **Verified**.
 4. Gửi email kiểm tra từ AWS Management Console hoặc thực hiện chức năng gửi email trực tiếp từ ứng dụng.
 
-![SES identity Verified](/images/5-Workshop/5.5-S3-SES/11-ses-identity-verified.png)
+![SES identity Verified](/AWS-workshop/images/5-Workshop/5.5-S3-SES/11-ses-identity-verified.png)
 
 > **Lưu ý:** Đối với các tài khoản AWS mới, Amazon SES thường hoạt động ở chế độ **Sandbox**. Trong chế độ này, hệ thống chỉ có thể gửi email đến các địa chỉ đã được xác minh. Khi triển khai thực tế, bạn cần gửi yêu cầu **Production Access** để loại bỏ giới hạn này.
 

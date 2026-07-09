@@ -1,4 +1,4 @@
----
+﻿---
 title: "VPC & mạng"
 date: 2026-07-01
 weight: 3
@@ -23,7 +23,7 @@ Tạo VPC **`dacswebsk-vpc`** với các thông số sau:
 
 Sau khi hoàn tất, VPC đóng vai trò là mạng riêng chứa toàn bộ tài nguyên được triển khai trong workshop.
 
-![Resource map VPC](/images/5-Workshop/5.3-VPC-Networking/03-vpc-dacswebsk-resource-map.png)
+![Resource map VPC](/AWS-workshop/images/5-Workshop/5.3-VPC-Networking/03-vpc-dacswebsk-resource-map.png)
 
 #### Subnets
 
@@ -37,7 +37,7 @@ Tiếp theo, tạo các Subnets theo bảng dưới đây:
 
 Hai Public Subnets được triển khai trên hai Availability Zones nhằm hỗ trợ khả năng chịu lỗi cho **Application Load Balancer (ALB)**. Public Subnets sử dụng Route Table **`dacswebsk-rtb-public`**, trong đó tuyến mặc định (`0.0.0.0/0`) được định tuyến đến **Internet Gateway** để cho phép truy cập từ Internet.
 
-![Subnets](/images/5-Workshop/5.3-VPC-Networking/04-vpc-subnets-public-private.png)
+![Subnets](/AWS-workshop/images/5-Workshop/5.3-VPC-Networking/04-vpc-subnets-public-private.png)
 
 #### Security Groups
 
@@ -52,7 +52,7 @@ Sau khi hoàn thành cấu hình mạng, tạo các Security Groups để kiểm
 
 Việc phân tách Security Groups theo từng thành phần giúp kiểm soát lưu lượng mạng rõ ràng hơn, đồng thời hạn chế quyền truy cập không cần thiết giữa các dịch vụ.
 
-![Security groups](/images/5-Workshop/5.3-VPC-Networking/05-vpc-security-groups.png)
+![Security groups](/AWS-workshop/images/5-Workshop/5.3-VPC-Networking/05-vpc-security-groups.png)
 
 #### Section summary
 

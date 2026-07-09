@@ -1,4 +1,4 @@
----
+﻿---
 title: "Event 3"
 date: 2026-06-13
 weight: 3
@@ -112,7 +112,7 @@ The session motivated me to pursue Cloud Computing and DevOps, emphasizing conti
 
 #### Event attendance proof
 
-![First Cloud AI Journey DevOps attendance record 13-06-2026](/images/4-EventParticipated/4.3-Event3/devops-career-attendance.png)
+![First Cloud AI Journey DevOps attendance record 13-06-2026](/AWS-workshop/images/4-EventParticipated/4.3-Event3/devops-career-attendance.png)
 
 ### Summary
 

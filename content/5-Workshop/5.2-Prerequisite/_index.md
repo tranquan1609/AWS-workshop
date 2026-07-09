@@ -1,4 +1,4 @@
----
+﻿---
 title: "Prerequisite — IAM & CLI"
 date: 2026-07-01
 weight: 2
@@ -34,9 +34,9 @@ CloudWatchFullAccessV2
 SecretsManagerReadWrite
 ```
 
-![IAM users list](/images/5-Workshop/5.2-Prerequisite/01-iam-users-list.png)
+![IAM users list](/AWS-workshop/images/5-Workshop/5.2-Prerequisite/01-iam-users-list.png)
 
-![Permissions for dacswebsk-dev](/images/5-Workshop/5.2-Prerequisite/02-iam-user-permissions-dacswebsk-dev.png)
+![Permissions for dacswebsk-dev](/AWS-workshop/images/5-Workshop/5.2-Prerequisite/02-iam-user-permissions-dacswebsk-dev.png)
 
 #### Configure AWS CLI
 

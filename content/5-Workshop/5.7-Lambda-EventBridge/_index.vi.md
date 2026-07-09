@@ -1,4 +1,4 @@
----
+﻿---
 title: "Lambda, EventBridge & Chatbot"
 date: 2026-07-01
 weight: 7
@@ -23,7 +23,7 @@ Trong phiên bản triển khai cục bộ, ứng dụng sử dụng ba **.NET H
 
 Sau khi triển khai, kiểm tra danh sách Lambda Functions để đảm bảo tất cả các hàm đã được tạo thành công.
 
-![Danh sách Lambda](/images/5-Workshop/5.7-Lambda-EventBridge/17-lambda-functions-list.png)
+![Danh sách Lambda](/AWS-workshop/images/5-Workshop/5.7-Lambda-EventBridge/17-lambda-functions-list.png)
 
 #### Cấu hình Amazon EventBridge
 
@@ -37,7 +37,7 @@ Tiếp theo, tạo các **EventBridge Rules** để kích hoạt các Lambda Fun
 
 Sau khi hoàn tất cấu hình, các Lambda Functions sẽ được kích hoạt tự động theo lịch mà không cần chạy liên tục trên máy chủ EC2.
 
-![EventBridge rules](/images/5-Workshop/5.7-Lambda-EventBridge/19-eventbridge-scheduled-rules.png)
+![EventBridge rules](/AWS-workshop/images/5-Workshop/5.7-Lambda-EventBridge/19-eventbridge-scheduled-rules.png)
 
 #### Triển khai Chatbot với API Gateway
 
@@ -62,7 +62,7 @@ Khi người dùng gửi câu hỏi từ giao diện web, yêu cầu được ch
 
 Kiểm tra Lambda Function thông qua **AWS Lambda Console**. Nếu kết quả trả về **HTTP 200** cùng với các tiêu đề CORS phù hợp, quá trình tích hợp giữa API Gateway, Lambda và giao diện web đã được cấu hình thành công.
 
-![Lambda chatbot test thành công](/images/5-Workshop/5.7-Lambda-EventBridge/18-lambda-chatbot-test-success.png)
+![Lambda chatbot test thành công](/AWS-workshop/images/5-Workshop/5.7-Lambda-EventBridge/18-lambda-chatbot-test-success.png)
 
 Ví dụ địa chỉ Chat API:
 

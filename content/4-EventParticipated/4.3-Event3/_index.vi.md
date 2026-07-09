@@ -1,4 +1,4 @@
----
+﻿---
 title: "Event 3"
 date: 2026-06-13
 weight: 3
@@ -112,7 +112,7 @@ Buổi chia sẻ truyền cho mình nhiều động lực để tiếp tục the
 
 #### Hình ảnh minh chứng tham gia sự kiện
 
-![Lịch sử chấm công First Cloud AI Journey DevOps 13-06-2026](/images/4-EventParticipated/4.3-Event3/devops-career-attendance.png)
+![Lịch sử chấm công First Cloud AI Journey DevOps 13-06-2026](/AWS-workshop/images/4-EventParticipated/4.3-Event3/devops-career-attendance.png)
 
 ### Tổng kết
 

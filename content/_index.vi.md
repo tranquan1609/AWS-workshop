@@ -1,4 +1,4 @@
----
+﻿---
 title: "Báo cáo thực tập"
 date: 2026-04-20
 weight: 1
@@ -27,7 +27,7 @@ chapter: false
 
 &emsp; **Thời gian thực tập:** Từ ngày 20/04/2026 đến ngày 12/07/2026
 
-<img src="/images/Avata.jpg" alt="Ảnh đại diện của bạn" width="594" style="max-width: 100%; height: auto;">
+<img src="/AWS-workshop/images/Avata.jpg" alt="Ảnh đại diện của bạn" width="594" style="max-width: 100%; height: auto;">
 
 
 
